@@ -9,7 +9,7 @@ if ($ball == 'red') {
  $bluebox = $ball;
 } elseif ($ball == 'green') {
  $greenbox = $ball;
-} elseif ($ball == "purple") {
+} elseif ($ball == 'purple') {
  $purplebox = $ball;
 } else {
  $colorlessbox = $ball;
