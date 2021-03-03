@@ -26,15 +26,3 @@
 ?>
 </body>
 </html>
-switch(variable) {
-case nilai 1 :
-perintah yang dijalankan ;
-break;
-case nilai 2 :
- perintah yang dijalankan ;
-break;
-...
-default :
- perintah yang dijalankan ; 
- break;
-} 
