@@ -11,7 +11,7 @@
 <body>
 	<font size="10px">
 		<h3>FUNGSI DATE</h3>
-		<h3>ANRE FRANCISCUS</h3>
+		<h3>Muhammad Syah Rizal</h3>
 	<?php 
 	echo "Sekarang Tanggal";
 	echo date('d-F-Y');
