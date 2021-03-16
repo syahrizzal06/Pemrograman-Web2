@@ -1,8 +1,10 @@
 <html> 
-<head><title>Contoh Penggunaan UDF</title></head> 
+<head>
+	<title>Contoh Penggunaan UDF<title>
+	</head> 
 <body> 
 <! Menentukan Form Input> 
-<form > 
+<form action="pert8_latihan2.php" method="POST"> 
 Masukkan Bilangan Pertama : <br> 
 <input type="text" name="A" size=10><br> 
 Masukkan Bilangan Kedua : <br> 
@@ -10,28 +12,26 @@ Masukkan Bilangan Kedua : <br>
 <input type="submit" value="hitung"> 
 </form> 
 <!membandingkan 2 buah bilangan yang diinput> 
-<? 
+<?php 
  $a=$_post["A"]; 
  $b=$_post["B"]; 
- Function jumlah($A,$B) 
- { 
+ Function jumlah($A,$B) { 
  $jumlahbil=$A + $B; 
- Return $jumlahbil;  } 
- Function kurang($A,$B) 
- { 
+ Return $jumlahbil;  
+} 
+ Function kurang($A,$B) { 
  $kurangbil=$A - $B; 
  Return $kurangbil; 
  } 
- Function kali($A,$B) 
- { 
+ Function kali($A,$B) { 
  $kalibil=$A * $B; 
  Return $kalibil; 
  } 
- Function bagi($A,$B) 
- { 
+ Function bagi($A,$B) { 
  $bagibil=$A / $B; 
  Return $bagibil; 
  } 
+
 Echo "<br>"; 
 Echo ("Bilangan Pertama : "); 
 Echo $A; 
@@ -39,6 +39,7 @@ Echo "<br>";
 Echo ("Bilangan Kedua : "); 
 Echo $B; 
 Echo "<br><br>"; 
+
 Echo "Hasil Penjumlahan 2 buah bilangan "; 
 Echo "<br>"; 
 $jumlahbil=&jumlah($A,$B); 
