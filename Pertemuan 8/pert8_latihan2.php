@@ -11,7 +11,7 @@ Masukkan Bilangan Kedua : <br>
 <input type="text" name="B" size=10><br> 
 <input type="submit" value="hitung"> 
 </form> 
-<!membandingkan 2 buah bilangan yang diinput> 
+<!--membandingkan 2 buah bilangan yang diinput--> 
 <?php 
  $a=$_post["A"]; 
  $b=$_post["B"]; 
