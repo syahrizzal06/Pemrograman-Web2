@@ -1,7 +1,7 @@
 <html> 
 <head>
-	<title>Contoh Penggunaan UDF<title>
-	</head> 
+<title>Contoh Penggunaan UDF<title>
+</head> 
 <body> 
 <! Menentukan Form Input> 
 <form action="pert8_latihan2.php" method="POST"> 
