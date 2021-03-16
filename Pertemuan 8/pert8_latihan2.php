@@ -57,7 +57,8 @@ Printf( "Perkalian antara : %d * %d = %d ", $A, $B, $kalibil);
 Echo "<br><br>"; 
 Echo "Hasil Pembagian 2 buah bilangan "; 
 Echo "<br>"; 
-$bagibil=&bagi($A,$B); Printf( "Pembagian antara : %d / %d = %d ",$A,$B,$bagibil); 
+$bagibil=&bagi($A,$B); 
+Printf( "Pembagian antara : %d / %d = %d ",$A,$B,$bagibil); 
 Echo "<br><br>"; 
 ?> 
 </body> 
