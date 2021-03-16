@@ -4,7 +4,7 @@
 	<title>Tanggal</title>
 	<style type="text/css">
 		h3	{
-			color: blue;
+			color: palegreen;
 		}
 	</style>
 </head>
