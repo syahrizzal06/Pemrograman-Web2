@@ -1,4 +1,4 @@
-<php? 
+<?php 
 include "koneksi.php"; 
 ?> 
 <h1>Form Berita</h1> 
