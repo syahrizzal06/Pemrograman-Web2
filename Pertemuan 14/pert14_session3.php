@@ -1,16 +1,14 @@
 <?php 
-/**************************************************** 
-Halaman ini merupakan halaman logout, dimana kita menghapus session yang ada. 
-*****************************************************/ 
-session_start(); 
-if (isset($_SESSION['login'])) { 
-unset ($_SESSION); 
-session_destroy(); 
-// 
-echo "<h1>Anda sudah berhasil LOGOUT</h1>"; 
-echo "<h2>Klik <a href='session1.php'>di sini</a> untuk 
-LOGIN kembali</h2>"; 
-echo "<h2>Anda sekarang tidak bisa masuk ke halaman 
-<a href='session2.php'>session2.php</a> lagi</h2>"; 
-} 
-?>
+
+	session_start();
+	if (isset($_SESSION['LOGIN'])) {
+		unset($_SESSION);
+		session_destroy();
+
+		echo "<center><h1>ANDA BERHASIL LOGOUT</h1></center>";
+		echo "<center><h2><a href='pert14_session1.php'>KLIK DISINI</a> UNTUK LOGIN KEMBALI</h2></center>";
+
+		echo "<center><h2>Anda sekarang tidak bisa masuk kehalaman <a href='pert14_session2.php'>session2.php</a></h2></center>";
+	}
+ ?>
+© 2021 GitHub, Inc.
